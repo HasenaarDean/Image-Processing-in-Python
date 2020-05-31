@@ -1,0 +1,12 @@
+Q2:
+
+Explain the differences between resize_spectrogram and resize_vocoder outputs after recording 
+yourself. 
+
+Answer to Q2: 
+
+the differences between resize_spectrogram and resize_vocoder outputs are due to this: in the 
+function resize_spectrogram, we used spectrogram scaling with no any phase correction - and thus 
+the record isn't clear: the waves do not appear in their right place, and might cancel each other.
+Whereas, we do not have this problem in the function resize_vocoder, because the phases are 
+adjusted, and as a result the record is clear. 

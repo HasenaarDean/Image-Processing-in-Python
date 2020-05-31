@@ -1,0 +1,12 @@
+Q3:
+
+What happens (and why this happens) to the result blending from section 4 image when: 
+
+Blending is performed with a varying number of pyramid levels (max_levels = 1,2,3,4,5,...)? 
+
+Answer to Q3: 
+
+The result blending will be smoother, as long as we take bigger and bigger levels. 
+This is because as we take more and more levels in the algorithm of blending, the space around the 
+edges of the pictures will be raised. So, it will be more difficult for the cut to be observed. 
+

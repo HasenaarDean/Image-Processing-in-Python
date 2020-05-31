@@ -1,0 +1,9 @@
+Q1:
+
+What does it mean to multiply each level in a different value? What do we try to control on?
+
+Answer to Q1: 
+
+When we multiply each level in a different value, we actually give a diverse emphasis for every 
+level of sharpening, according to the coefficient of multiplication. 
+

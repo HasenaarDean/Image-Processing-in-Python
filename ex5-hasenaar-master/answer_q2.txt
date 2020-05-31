@@ -1,0 +1,12 @@
+Q2:
+
+suggest how to use the workflow you have implemented in this assignment to train a network that
+could be used for super-resolution. 
+
+Answer to Q2: 
+
+I'd suggest a neural network trained on a new set of pictures a and b, when a is a picture with 
+low resolution and b is a picture with high resolution. It'd learn in which way to improve the 
+resolution by using the database. I will also add a corruption function that subsamples the image 
+pixels in order to reduce the resolution. 
+

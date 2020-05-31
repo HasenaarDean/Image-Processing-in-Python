@@ -1,0 +1,11 @@
+Q1:
+
+The quantization procedure needs an initial segment division of [0..255] to segments, z. 
+If a division will have a gray level segment with no pixels, the procedure will crash. 
+
+Answer to Q1: 
+
+In that case, the program crashes, due to a division by zero error, because when we calculate 
+the value of q of a segment that has no pixels at all, we get that the sum of all pixels in this 
+segment (i.e. the histogram value), which is our denominator, will be equal to zero, 
+according to the algorithm of quantization we learned in class. 

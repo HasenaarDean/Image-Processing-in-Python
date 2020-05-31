@@ -1,0 +1,12 @@
+Q1:
+
+Can you explain the reason for the difference between change_rate.wav and change samples.wav?
+
+Answer to Q1: 
+
+The difference between the two WAV files is due to this: in the function change_rate we speed up 
+the WAV by altering the sample rate to be higher, while in the function change_samples we remove 
+the higher frequencies by having less sample points. The change_sample function altered the duration 
+of the WAV file by reducing the number of samples using Discrete Fourier Transform. Whereas, 
+change_rate alters the duration of the WAV file by saving the same samples, while changing the
+sample rate. As a result, there is a higher pitch sound in the output of the function change_rate.

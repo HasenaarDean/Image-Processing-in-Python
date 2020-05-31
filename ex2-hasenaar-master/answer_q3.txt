@@ -1,0 +1,10 @@
+Q3:
+
+Why did you get two different magnitude images in conv_der and fourier_der?
+
+Answer to Q3: 
+
+We got two different magnitude images because both of these derivation methods give only a 
+proximity of the (discrete) derivative of the image. In the function conv_der we calculate the 
+average of the neighbors, whereas in the function fourier_der we take into account all the pixels 
+in the same column or row, for each calculation.
